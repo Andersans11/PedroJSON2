@@ -1,0 +1,28 @@
+{
+    "paths": [
+        {
+            "id": 1,
+            "type": "LINEAR",
+            "interpolation": {
+                "type": "LINEAR",
+                "heading": 0.0
+            },
+            "start": {
+                "x": 9.0,
+                "y": 60.0
+            },
+            "end": {
+                "x": 30.0,
+                "y": 60.0
+            },
+            "callbacks": [
+                {
+                    "type": "TEMPORAL",
+                    "time": 0.0,
+                    "runnable": "verticalLift10"
+                }
+            ]
+            
+        }
+    ]
+}
