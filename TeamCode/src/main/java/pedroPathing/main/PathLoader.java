@@ -9,6 +9,8 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.pedropathing.pathgen.PathChain;
+
 public class PathLoader {
 
     File file;
@@ -25,7 +27,7 @@ public class PathLoader {
 
         ObjectMapper objectMapper = new ObjectMapper();
 
-        PathChain[] paths;
+        ArrayList<PathChain>[] paths;
         
         try {
 
