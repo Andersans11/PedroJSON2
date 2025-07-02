@@ -24,6 +24,8 @@ public class PathLoader {
     public void Parse() {
 
         ObjectMapper objectMapper = new ObjectMapper();
+
+        PathChain[] paths;
         
         try {
 
